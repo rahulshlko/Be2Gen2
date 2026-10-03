@@ -192,13 +192,13 @@ export default function Home(){
       </div>
       <div className="hero-art hero-art-premium" style={{
         position:'relative',
-        minHeight:'650px',
+        minHeight:'600px',
         height:'min(78vh,790px)',
         overflow:'hidden',
         borderRadius:18,
-        background:'radial-gradient(circle at 55% 55%,rgba(44, 2, 2, 0.72),transparent 45%),linear-gradient(135deg,#08090b 0%,#16080d 58%,#060708 100%)',
+        background:'radial-gradient(circle at 55% 55%,rgba(41, 2, 2, 0.72),transparent 45%),linear-gradient(135deg,#08090b 0%,#16080d 58%,#060708 100%)',
         border:'none',
-        boxShadow:'0 26px 70px rgba(0, 0, 0, 0.95), inset 0 0 90px rgba(0, 0, 0, 0.92)',
+        boxShadow:'0 26px 70px rgba(6, 6, 6, 0.95), inset 0 0 90px rgb(0, 0, 0)',
         display:'flex',
         alignItems:'center',
         justifyContent:'center'
@@ -207,7 +207,7 @@ export default function Home(){
           position:'absolute',
           inset:0,
           pointerEvents:'none',
-          background:'radial-gradient(circle at 72% 50%,rgba(205,42,68,.20),transparent 38%)'
+          background:'radial-gradient(circle at 72% 50%,rgba(102, 32, 44, 0.11),transparent 38%)'
         }}/>
         <div style={{
           position:'relative',
